@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* --- CONFIGURACIÓN DE FUENTES (TAILWIND v4) --- */
+@theme {
+  /* Aquí conectamos las variables de layout.tsx con Tailwind */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-oswald);
+}
+
+/* --- CONFIGURACIÓN DE COLORES --- */
+:root {
+  --background: #0a0a0a; 
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  /* Suavizado de fuentes para que se vean nítidas en fondo negro */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- BARRA DE SCROLL DORADA (TOQUE PREMIUM) --- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ca8a04; /* Color Yellow-600 */
+}
