@@ -115,7 +115,7 @@ export default function Home() {
 
             {/* 4. TARJETA: CTA WHATSAPP (NÚMERO ACTUALIZADO) */}
             <a 
-              href="https://wa.me/525573799161?text=Hola,%20quisiera%20cotizar%20un%20pedido%20de%20telas." 
+              href="https://wa.me/525573799162?text=Hola,%20quisiera%20cotizar%20un%20pedido%20de%20telas." 
               target="_blank"
               rel="noopener noreferrer"
               className="md:col-span-2 relative group rounded-xl bg-yellow-500 overflow-hidden flex items-center justify-between p-8 md:p-12 hover:bg-yellow-400 transition-colors shadow-[0_0_40px_rgba(234,179,8,0.2)] hover:shadow-[0_0_60px_rgba(234,179,8,0.4)]"

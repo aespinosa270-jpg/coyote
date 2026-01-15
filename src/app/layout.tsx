@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Coyote Textil",
   },
   icons: {
-    icon: "/assets/favicon.ico", // Asegúrate de tener un favicon si es posible
+    icon: "/assets/favicon.ico", 
   },
 };
 

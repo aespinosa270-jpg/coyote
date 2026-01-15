@@ -75,7 +75,7 @@ export const HeroSection = () => {
                     <div className="flex flex-col md:flex-row gap-4">
                         {/* Botón Principal Único: WhatsApp */}
                         <a 
-                            href="https://wa.me/525512345678?text=Hola,%20me%20interesa%20cotizar%20telas%20con%20envío%20a..." 
+                            href="https://wa.me/525573799162?text=Hola,%20me%20interesa%20cotizar%20telas%20con%20envío%20a..." 
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group bg-white text-black px-8 py-4 flex items-center justify-center gap-3 font-bold uppercase tracking-widest hover:bg-yellow-500 transition-colors duration-300 shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(234,179,8,0.4)]"

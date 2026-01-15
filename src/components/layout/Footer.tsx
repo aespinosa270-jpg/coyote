@@ -21,7 +21,7 @@ export function Footer() {
             
             {/* Botón WhatsApp (Número corregido) */}
             <a 
-              href="https://wa.me/525573799161"
+              href="https://wa.me/525573799162"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 text-xs font-bold uppercase tracking-widest text-white hover:text-yellow-500 transition-colors group"
@@ -43,7 +43,7 @@ export function Footer() {
                </span>
             </div>
             
-            {/* Sección de Teléfonos (Los dos números solicitados) */}
+            {/* Sección de Teléfonos (Fijos) */}
             <div className="flex flex-col gap-2 mt-2">
                <div className="flex items-center gap-3 text-neutral-400 text-sm">
                   <Phone size={18} className="text-yellow-500 shrink-0" />

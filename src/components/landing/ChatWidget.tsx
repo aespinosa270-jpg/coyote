@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { X, Send, MapPin, Package, User, ChevronRight, CheckCheck, RefreshCcw, Sparkles } from 'lucide-react';
 
 // --- CONFIGURACIÓN ---
-const WHATSAPP_NUMBER = '525573799161'; 
+const WHATSAPP_NUMBER = '525573799162'; // <--- NÚMERO ACTUALIZADO
 const BOT_NAME = 'Coyote Ventas';
 
 // --- ICONO DE COYOTE PERSONALIZADO (SVG) ---

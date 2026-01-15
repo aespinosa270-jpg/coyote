@@ -27,7 +27,7 @@ export function Navbar() {
         <div className="flex items-center shrink-0">
            <Link 
              href="/" 
-             onClick={scrollToTop} // <--- AQUÍ ESTÁ EL CAMBIO CLAVE
+             onClick={scrollToTop} 
              className="hover:opacity-80 transition-opacity duration-300 drop-shadow-[0_0_25px_rgba(234,179,8,0.2)]"
            >
              <Image
@@ -63,7 +63,7 @@ export function Navbar() {
           {/* BOTÓN COTIZAR */}
           <div className="ml-8">
             <a 
-              href="https://wa.me/525573799161?text=Hola,%20quisiera%20cotizar%20telas."
+              href="https://wa.me/525573799162?text=Hola,%20quisiera%20cotizar%20telas."
               target="_blank"
               rel="noopener noreferrer"
               className="relative overflow-hidden inline-flex items-center justify-center rounded-sm bg-yellow-500 px-10 py-4 font-bold text-sm uppercase tracking-widest text-black shadow-[0_0_20px_rgba(234,179,8,0.4)] transition-all hover:scale-105 hover:bg-yellow-400 hover:shadow-[0_0_30px_rgba(234,179,8,0.6)] -skew-x-12 group"
